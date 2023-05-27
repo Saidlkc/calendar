@@ -21,20 +21,30 @@ body{
     font-size: 35px;
     color:green;   
     margin-right: 6px;
+    cursor: pointer;
+
 }
 .left-arrow{
     font-size: 35px;
     color:green;  
     margin-left: 6px;
+    cursor: pointer;
+}
+
+.left-arrow:hover, .right-arrow:hover{
+    color: black;
 }
 
 .calendar {
-    background-color: red;
+    cursor: pointer;
     font-size: 30px;
+}
+.calendar:hover{
+    background-color: white;
+    
 }
 
 .date {
-    background-color: #fff;
     font-size: 20px;
 }
 
